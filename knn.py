@@ -1,5 +1,5 @@
 #KNearestNeighbors
-#Using euclidian distance
+#Using Euclidean distance
 
 x = [[2,4],[7,8],[8,9],[1,3],[4,3],[6,5],[2,2],[9,5],[7,6],[1,4]]
 y = [0,1,1,0,0,1,0,1,1,0]
