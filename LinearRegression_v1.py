@@ -1,8 +1,5 @@
 #Linear regression
 
-X = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
-y = [11, 18, 25, 32, 39, 46, 53, 60, 67, 74]
-
 def calculate_loss(slope, intercept, features, labels): #mean squared error
     dataset_size = len(features)
     return sum((label - (slope*feature + intercept)) ** 2 / dataset_size for feature, label in zip(features, labels))
@@ -56,3 +53,4 @@ if __name__ == "__main__":
 
     print("loss: ", LinReg.loss())
     print("prediction: ", LinReg.predict([0,5,11]))
+    
